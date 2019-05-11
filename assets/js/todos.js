@@ -18,7 +18,7 @@ $("input[type='text']").keypress(function(event){
         //grabbing what was entered
         var newTask = $(this).val();
         //creating new li to add into our current ul
-        $("ul").append("<li><span>X </span>" + newTask + "</li>");
+        $("ul").append("<li><span><i class='far fa-trash-alt'></i></span> " + newTask + "</li>");
         //clearing the typed text after entering it
         $(this).val("");
     }

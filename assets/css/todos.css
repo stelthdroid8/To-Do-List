@@ -14,6 +14,11 @@ ul {
 }
 body{
     font-family: Roboto;
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+,Opera 12+, Safari 7+ */
+
+
 }
 li{
     background-color: white;
@@ -35,6 +40,9 @@ input:focus{
     background-color: white;
     border: 3px solid #2980b9;
     outline: none;
+}
+.fa-pencil-alt{
+    float: right;
 }
 #container{
     box-shadow: 0 0 3px rgba(0,0,0, .1);
