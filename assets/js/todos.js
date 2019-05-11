@@ -23,3 +23,8 @@ $("input[type='text']").keypress(function(event){
         $(this).val("");
     }
 });
+
+//adding click listener to icon to toggle the input
+$(".fa-pencil-alt").on("click", function(){
+    $('input:text').fadeToggle();
+});
